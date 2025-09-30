@@ -1,4 +1,4 @@
-**Project summary**  
+# Project summary
 This repository contains a two-stage pipeline: (1) a YOLOv11n object detector trained to detect faces and predict gender (male / female), and (2) an EfficientNet_V2_S–based classifier fine-tuned to recognize 16 celebrity identities from cropped face images. The detector produces face crops which the classifier then labels. See the full report for details and results.
 
 ---
